@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import './App.css'
+import HomePage from "./Components/HomePage/HomePage";
+import SiderBar from "./Components/SiderBar/SiderBar";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div className="container">
+      <SiderBar className='sider'/>
+      <HomePage className='main'/>
+    </div>
+  );
 }
 
-export default App
+export default App;
