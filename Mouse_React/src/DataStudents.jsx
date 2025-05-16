@@ -35,4 +35,3 @@ export const students = [
     english: 8,
   },
 ];
-console.log("Du lieu sinh vien");

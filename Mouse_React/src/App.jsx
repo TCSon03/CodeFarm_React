@@ -1,13 +1,9 @@
-import React from "react";
-import './App.css'
-import HomePage from "./Components/HomePage/HomePage";
-import SiderBar from "./Components/SiderBar/SiderBar";
-
+import "./App.css";
+import Dashboard from "./Components/Dashboard/Dashboard";
 function App() {
   return (
     <div className="container">
-      <SiderBar className='sider'/>
-      <HomePage className='main'/>
+      <Dashboard />
     </div>
   );
 }
